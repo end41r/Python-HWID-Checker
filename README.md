@@ -1,4 +1,4 @@
-# Python-HWID-Checker
+# Python-HWID-SYSTEM
 
 If you want to make an app with some security, so that someone couldn't launch it, this is for you!
 
