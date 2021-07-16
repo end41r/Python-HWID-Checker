@@ -1,6 +1,4 @@
-import getpass, os, uuid, hashlib
-from getmac import get_mac_address as gma
-from requests import get
+import getpass, os, uuid, hashlib, getmac as gma, requests
 file = get(url='raw pastebin with hwids goes here')
 stripped = file.text[:500].split('\r\n')
 for i in range(len(stripped)):
